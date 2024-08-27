@@ -1,4 +1,4 @@
-body {
+.menu-page {
     background-color: #fff7ed;
     margin: 0;
     display: flex;
@@ -6,31 +6,31 @@ body {
     height: 100vh;
 }
 
-nav {
+.menu-page nav {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.menu {
+.menu-page .menu {
     background-color: black;
 }
 
-#content {
+.menu-page #content {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-footer {
+.menu-page footer {
     background-color: #451a03; /* Footer background color */
     color: #fff7ed; /* Footer text color */
     text-align: center;
     padding: 10px; /* Footer padding */
 }
 
-button {
+.menu-page button {
     background-color: #451a03;
     color: #fff7ed;
     padding: 10px 20px;
@@ -39,26 +39,26 @@ button {
     font-size: 20px;
 }
 
-.background-container {
+.menu-page .background-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
 
-.text {
+.menu-page .text {
     align-self: center;
     justify-self: center;
     font-size: 30px;
     padding-top: 20px;
 }
 
-p {
+.menu-page p {
     text-align: end;
     margin: 0;
 }
 
-.background-img1 {
+.menu-page .background-img1 {
     position: relative;
     width: 100%; /* Adjust width as needed */
     height: 400px; /* Set a height or use responsive techniques */
@@ -71,8 +71,8 @@ p {
     text-align: end;
     border-radius: 10px;
 }
-  
-.overlay-text {
+
+.menu-page .overlay-text {
     position: absolute;
     top: 30%; /* Center vertically */
     left: 50%; /* Center horizontally */
@@ -86,7 +86,7 @@ p {
     width: 66%; /* Adjust width as needed */
 }
 
-.background-img2 {
+.menu-page .background-img2 {
     position: relative;
     width: 100%; /* Adjust width as needed */
     height: 400px; /* Set a height or use responsive techniques */
