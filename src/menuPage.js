@@ -17,12 +17,12 @@ export function loadMenuPage() {
     // Create the first text div
     const text1 = document.createElement('div');
     text1.className = 'text';
-    text1.innerHTML = 'Blood of Christ<p>$20</p>';
+    text1.innerHTML = 'Blood of Christ<p>$everything you have</p>';
 
     // Create the second text div
     const text2 = document.createElement('div');
     text2.className = 'text';
-    text2.innerHTML = 'Body of Christ<p>$33</p>';
+    text2.innerHTML = 'Body of Christ<p>$give it all</p>';
 
     // Create the second background-img2 div
     const backgroundImg2 = document.createElement('div');

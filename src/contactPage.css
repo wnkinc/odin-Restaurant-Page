@@ -1,0 +1,60 @@
+.contact-page {
+    background-color: #fff7ed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contact-page nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-page .contact {
+    background-color: black;
+}
+
+.contact-page #content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-page footer {
+    background-color: #451a03; /* Footer background color */
+    color: #fff7ed; /* Footer text color */
+    text-align: center;
+    padding: 10px; /* Footer padding */
+}
+
+.contact-page button {
+    background-color: #451a03;
+    color: #fff7ed;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.contact-page .background-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+.contact-page .pray {
+    font-size: 40px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.contact-page p {
+    margin: 0;
+}

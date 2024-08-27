@@ -1,12 +1,13 @@
 import "./menuPage.css";
 import "./homePage.css";
+import "./contactPage.css";
+import { loadContactPage } from "./contactPage";
 import { loadMenuPage } from "./menuPage";
 import { loadHomePage } from "./homePage.js";
 
-alert("Hello, World!");
-
 const homeButton = document.querySelector(".home");
 const menuButton = document.querySelector(".menu");
+const contactButton = document.querySelector('.contact');
 
 const contentDiv = document.querySelector("#content");
 
@@ -19,6 +20,11 @@ menuButton.addEventListener('click', () => {
     document.body.className = "menu-page";
     contentDiv.textContent = "";
     loadMenuPage()
+});
+contactButton.addEventListener('click', () => {
+    document.body.className = "contact-page";
+    contentDiv.textContent = "";
+    loadContactPage()
 });
 
 document.body.className = "home-page";
