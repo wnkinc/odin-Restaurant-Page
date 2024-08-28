@@ -5,6 +5,10 @@ import { loadContactPage } from "./contactPage";
 import { loadMenuPage } from "./menuPage";
 import { loadHomePage } from "./homePage.js";
 
+if (process.env.NODE_ENV !== 'production') {
+    console.log('Looks like we are in development mode!');
+} 
+
 const homeButton = document.querySelector(".home");
 const menuButton = document.querySelector(".menu");
 const contactButton = document.querySelector('.contact');
